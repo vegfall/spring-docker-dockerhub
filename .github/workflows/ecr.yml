@@ -1,9 +1,3 @@
-
-To update your GitHub Actions workflow to build and push a Docker image with the name my_build_github instead of hello and push it to your ECR repository, you need to modify the workflow file as follows:
-
-Updated .github/workflows/publish-docker-image.yml file:
-yaml
-Copy code
 name: Publish Docker image
 
 on:
